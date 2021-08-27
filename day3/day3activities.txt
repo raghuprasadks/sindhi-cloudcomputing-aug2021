@@ -1,0 +1,33 @@
+Cloud Computing - Day 3
+Agenda
+
+1. Deploying a sample webpage to heroku
+2. Download xampp
+3. Install xampp
+4. Create a folder olympics in
+C:\xampp\htdocs
+5. Add index.html
+6. Type xampp in windows search
+7. Start apache
+8. https://localhost/olympics/
+https://172.28.128.1/olympics/
+
+http://www.kaushalya.tech/
+git clone https://github.com/raghuprasadks/sindhi-cloudcomputing-aug2021.git
+
+html
+h1 --- h6
+p
+div
+img
+table
+li
+input
+
+
+
+
+
+
+
+
