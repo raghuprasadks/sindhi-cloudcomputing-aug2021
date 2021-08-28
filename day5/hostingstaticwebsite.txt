@@ -1,0 +1,6 @@
+1. Create an account with aws using https://aws.amazon.com/
+2. Sign in
+3. Search for S3
+4. Create a bucket
+sindhibcas3demo
+

@@ -5,7 +5,6 @@ Installation and deployment of application on XAMPP
 Cloud Computing using AWS (Amazon Web Service)
 Registration
 S3
-
 1. Step 1 - download xampp
 2. Step 2  -install
 3. Step 3 - create a folder called
@@ -17,4 +16,8 @@ in search
 7. Step 7 - Click start under apache
 8. Step 8 - Access webpage
 by typing http://localhost/olympics
+
+s3://awss3demobca/index.html
+
+https://awss3demobca.s3.ap-south-1.amazonaws.com/index.html
 
