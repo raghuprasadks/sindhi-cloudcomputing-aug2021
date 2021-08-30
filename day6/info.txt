@@ -13,7 +13,10 @@ download content of the git
 3. Enable s3 bucket for static website hosting
 4. provide the permission
 5. Browse the website
-
+Elastic Cloud Compute
 2. EC2 - server
 launch a virtual machine - https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#LaunchInstanceWizard:
 3. Connect - putty,winscp
+
+download putty
+download winscp
