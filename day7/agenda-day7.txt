@@ -1,0 +1,70 @@
+Agenda
+
+1. Set up ec2 instance
+2. Install apache on ec2
+3. Deploy the sample website - assignment
+
+Pre-requisites
+
+putty
+winscp
+private keys
+
+security groups
+
+raghuprasadkonandur@kaushalya.tech
+
+http://www.kaushalya.tech/
+
+Cloud computing
+
+heroku
+
+IAAS - I3
+PAAS - Platform as a service - heroku
+SAAS - 
+
+EC2 - Elastic Cloud Compute
+
+aws account 
+
+step 1 - https://aws.amazon.com/
+step 2 - Login
+step 3 - search ec2
+step 4 - click on Launch instance
+step 5 - select amazon linux - first in the list
+step 6 - select default add security
+step 7 - create and download key
+
+step 8 - download putty
+step 9 -download winscp
+
+step 10 - ping to the ec2 instance you have created
+
+type cmd in windows search
+type ipconfig
+ping <ipv4>
+
+step 11 - Generate  and private and public key
+using puttygen
+
+step 12 - Connect using putty
+
+host name or ip address : ec2-54-68-23-229.us-west-2.compute.amazonaws.com
+
+save - ec2demo
+
+click on connection - ssh - auth
+browse - private key
+click on open
+login as - ec2-user
+
+ 
+type puttygen
+
+ec2-user
+
+
+
+
+

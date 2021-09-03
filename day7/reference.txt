@@ -1,0 +1,17 @@
+https://tecadmin.net/install-apache24-php7-on-amazon-linux/
+chmod -R 777 /var/www/html
+https://www.youtube.com/watch?v=Q4Qlg_-pgMg
+
+
+sudo su
+yum install -y httpd.x86_64
+systemctl start httpd.service
+systemctl enable httpd.service
+
+
+
+
+
+
+
+
