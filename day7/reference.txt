@@ -8,6 +8,8 @@ yum install -y httpd.x86_64
 systemctl start httpd.service
 systemctl enable httpd.service
 
+http://ec2-54-68-23-229.us-west-2.compute.amazonaws.com/
+
 
 
 

@@ -1,0 +1,57 @@
+1. Install apache on ec2 instance
+
+connect to ec2 using putty
+
+sudo su
+yum install -y httpd.x86_64
+systemctl start httpd.service
+systemctl enable httpd.service
+
+winscp
+
+
+
+cd /var/www/html
+chmod -R 777 /var/www/html
+
+2. Deploy webpages in apache
+
+
+3. RDS - Relational Database Service
+
+search for rds 
+
+
+
+4. Install mysql
+5. Downloading mysql client - mysql workbench
+6. Create table and work on the sql
+
+https://aws.amazon.com/getting-started/hands-on/create-mysql-db/
+
+admin
+test1234
+
+
+Database Management System
+
+irctc.
+
+banking
+social media
+amazon
+flipkart
+
+Register
+
+Database - storage of information
+
+table
+- name
+- email
+- mobile
+- address
+
+
+
+
