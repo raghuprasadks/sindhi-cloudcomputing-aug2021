@@ -1,0 +1,147 @@
+Agenda:
+SQL and NoSQL
+SQL - Structured Query Language
+RDS 
+created an instance of mysql
+we connected with mysql - my sql client 
+mysql workbench
+created a database - ecommerce
+created a table - customer
+https://aws.amazon.com/
+
+w3schools sql
+https://www.w3schools.com/sql/default.Asp
+CRUD -
+C - Create
+R - Read
+U - Update
+D - Delete
+1. Step 1 - create a table
+create table student(
+id int not null,
+name varchar not null,
+mobile int not null
+)
+2. Step 2 - insert data into the table
+insert into student values (1,'ravi',9845547471)
+insert into student values (2,'suresh',9845547472)
+3. Retrieve the data
+SELECT * FROM student
+SELECT name,mobile FROM student
+SELECT name,mobile FROM student where name ='ravi'
+SELECT name,mobile FROM student where mobile =9845547471
+4. Update
+update student set mobile=9845547473 where name='suresh'
+5. delete
+delete from student where name='suresh'
+
+Assignment:
+1. create a table called corona
+
+having following fields
+statename
+total
+active
+recovered
+death
+2. Insert information about southern states
+https://www.mohfw.gov.in/
+
+andhra pradesh 100000 20000 70000 10000
+
+joining tables
+
+SELECT productname,categoryname FROM 
+Products,Categories
+where products.categoryid = categories.categoryid
+
+coronapatient
+
+id,name,age,sex,aadhar,dateofadmission,dateofdischarge,status
+
+mysql workbench
+step 1 -
+CREATE SCHEMA `coronamanagement` ;
+step2 - create a table
+CREATE TABLE `coronamanagement`.`coronapatient` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `sex` VARCHAR(45) NOT NULL,
+  `aadhar` INT NOT NULL,
+  `address` VARCHAR(100) NOT NULL,
+  `location` VARCHAR(100) NOT NULL,
+  `zipcode` INT NOT NULL,
+  `coronapatientcol` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `coronamanagement`.`coronapatient` (`name`, `sex`, `aadhar`, `address`, `location`, `zipcode`, `coronapatientcol`) VALUES ('ravi', 'male', '181818', 'kempapura', 'bengaluru', '560077', 'test');
+
+No SQL Database
+
+Not only SQL
+
+MongoDB - document database
+
+AI,ML,IoT - Smart cities
+
+https://jsonlint.com/
+JSON - Java Script Object Notation
+key : value
+json for one state
+{
+"name":"karnataka",
+"total":100000,
+"active":20000,
+"recovered":70000,
+"death":10000
+}
+
+json for multiple states
+
+[
+
+{
+"name":"karnataka",
+"total":100000,
+"active":20000,
+"recovered":70000,
+"death":10000
+},
+{
+"name":"AP",
+"total":200000,
+"active":20000,
+"recovered":70000,
+"death":10000
+},
+{
+"name":"kerala",
+"total":200000,
+"active":20000,
+"recovered":70000,
+"death":10000,
+"nimpovirus":1
+},
+{
+"name":"telangana",
+"total":200000,
+"active":20000,
+"recovered":70000,
+"death":10000
+
+},
+{
+"name":"tamil nadu",
+"total":200000,
+"active":20000,
+"recovered":70000,
+"death":10000
+
+}
+]
+
+
+
+
+
+

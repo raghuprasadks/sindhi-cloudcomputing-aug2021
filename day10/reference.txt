@@ -1,0 +1,46 @@
+https://cloudacademy.com/
+https://cloudacademy.com/course/overview-of-aws-identity-and-access-management-iam/users-groups-and-roles/
+https://aws.amazon.com/dynamodb/getting-started/
+
+Agenda :
+
+IAM - Identity and Access Management
+
+User,Group and Role
+
+https://aws.amazon.com/
+search iam
+click users
+Add Users
+Create a user with the name s3user1
+Access Type : AWS Management Console access
+user id : s3user1
+password : Test@1234
+create User
+https://503105841941.signin.aws.amazon.com/console
+Click on Download CSV
+User Groups
+
+s3usergroup
+
+add user to the group
+select the user which you have created s3user1
+
+policy - type s3
+Amazons3full access
+
+
+
+
+
+
+
+
+
+
+
+AWS Dynamo DB
+
+Feedback
+MCQ Test
+Winding up - What's next
